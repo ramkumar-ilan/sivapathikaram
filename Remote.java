@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.regex.Pattern;
+import java.util.ArrayList;
 
 public class remote {
 	private Selenium selenium;
