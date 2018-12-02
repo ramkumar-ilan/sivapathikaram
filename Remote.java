@@ -15,6 +15,7 @@ public class remote {
 	public void setUp() throws Exception {
 		selenium = new DefaultSelenium("localhost", 4444, "*chrome", "https://www.google.co.in/");
 		selenium.start();
+		ECHO CLEAN;
 	}
 
 	@Test
